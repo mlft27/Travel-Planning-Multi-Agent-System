@@ -17,5 +17,11 @@ An intelligent system that coordinates multiple specialized agents to search fli
 ### 1. Install LangGraph
 
 ```bash
-!pip install -U -q langgraph langchain
+pip install -U -q langgraph langchain
+```
+
+### 2. Install required libraries for Chat Model
+
+```bash
+pip install -U -q langchain-openai
 ```
